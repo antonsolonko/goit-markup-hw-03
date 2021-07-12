@@ -1,0 +1,192 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --primary-bg-gray: #2f303a;
+  --white: #ffffff;
+}
+/* INDEX.HTML */
+.list {
+  list-style: none;
+}
+.page {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: Roboto, 'Open Sans', sans-serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/* Header */
+.logo {
+  text-decoration: none;
+  color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03rem;
+  line-height: 1.38;
+}
+.logo-web {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--white);
+}
+/* Site nav */
+/* Site auth */
+.site-nav .link,
+.auth-nav .link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02rem;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--primary-bg-gray);
+}
+.hero .title {
+  color: var(--white);
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+}
+.hero .modal-btn {
+  background-color: var(--accent-color);
+  color: var(--white);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06rem;
+}
+/* Advantages */
+.section {
+  background-color: var(--primary-bg-color);
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0.06rem;
+}
+.section .title {
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03rem;
+}
+.section .description {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03rem;
+}
+/* Whatwedo */
+.section.title.main-title {
+  font-size: 36px;
+}
+/* Our team */
+.team {
+  background-color: var(--secondary-bg-color);
+}
+.section.team .title {
+  font-size: 36px;
+}
+.team .list-item {
+  background-color: var(--white);
+}
+.section .title.member {
+  font-size: 16px;
+  font-weight: 500;
+}
+.section.team .description {
+  font-size: 16px;
+}
+/* Footer */
+.footer {
+  background-color: var(--primary-bg-gray);
+}
+.footer-nav {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  font-style: normal;
+  letter-spacing: 0.03rem;
+}
+.footer-nav .adres {
+  color: var(--white);
+  text-decoration: none;
+}
+.footer-nav .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-nav .adres:hover,
+.footer-nav .adres:focus,
+.footer-nav .link:hover,
+.footer-nav .link:focus {
+  color: var(--accent-color);
+}
+/* >:G ?:O W:| PORTFOLIO.HTML <:=) j:-O i:K */
+
+/* Portfolio filter */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03rem;
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--accent-color);
+}
+/* Portfolio list */
+.portfolio-list .item .title {
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06rem;
+}
+.portfolio-list .item .description {
+  color: var(--primary-text-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  letter-spacing: 0.03rem;
+}
