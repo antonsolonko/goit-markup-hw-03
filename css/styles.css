@@ -8,6 +8,24 @@
   --white: #ffffff;
 }
 /* INDEX.HTML */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1200px;
+  outline: 2px solid tomato;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 .list {
   list-style: none;
 }
@@ -20,16 +38,24 @@
   text-transform: uppercase;
 }
 /* Header */
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .logo {
-  text-decoration: none;
+  display: inline-block;
+  padding-left: 15px;
+
   color: #000000;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03rem;
-  line-height: 1.38;
+  line-height: 1.2;
+  text-decoration: none;
 }
 .logo-web {
+  display: inherit;
+
   color: var(--accent-color);
 }
 .logo-studio {
@@ -37,8 +63,13 @@
 }
 /* Site nav */
 /* Site auth */
+/* .site-nav {
+  display: inline-flex;
+} */
+
 .site-nav .link,
 .auth-nav .link {
+  display: inline-block;
   color: var(--title-text-color);
   text-decoration: none;
   font-family: inherit;
@@ -65,25 +96,39 @@
 /* Hero */
 .hero {
   background-color: var(--primary-bg-gray);
+  text-align: center;
 }
 .hero .title {
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+
   color: var(--white);
   font-family: inherit;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 0.06rem;
+  letter-spacing: 2.64px;
   text-transform: uppercase;
 }
 .hero .modal-btn {
+  display: inline-block;
+  margin-bottom: 200px;
+  padding: 10px 32px;
+  border: none;
+  border-radius: 4px;
+
   background-color: var(--accent-color);
   color: var(--white);
-  cursor: pointer;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.06rem;
+  letter-spacing: 0.96px;
+  cursor: pointer;
 }
 /* Advantages */
 .section {
@@ -155,18 +200,29 @@
 .footer-nav .link:focus {
   color: var(--accent-color);
 }
+
 /* >:G ?:O W:| PORTFOLIO.HTML <:=) j:-O i:K */
 
 /* Portfolio filter */
 .button {
+  display: inline-block;
+  min-width: 73px;
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
+
   color: var(--title-text-color);
   background-color: var(--secondary-bg-color);
-  cursor: pointer;
+
   font-family: Roboto;
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03rem;
+
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -174,6 +230,9 @@
   background-color: var(--accent-color);
 }
 /* Portfolio list */
+.image {
+  display: block;
+}
 .portfolio-list .item .title {
   color: var(--title-text-color);
   font-family: inherit;
