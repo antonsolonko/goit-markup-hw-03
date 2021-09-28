@@ -19,39 +19,43 @@
   </head>
   <body class="page">
     <header class="page-header">
-      <div class="container">
-        <a href="./index.html" class="logo"> <span class="logo-web">Web</span>Studio </a>
-        <nav class=>
+      <div class="container header-container">
+        <nav class="nav-flex">
+          <a href="./index.html" class="logo">
+            <span class="logo-web">Web</span>Studio
+          </a>
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Студия</a></li>
-            <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-            <li><a href="./contacts.html" class="link">Контакты</a></li>
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+            <li class="item"><a href="./contacts.html" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
+          </li class="item">
           <li>
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
+          </li class="item">
         </ul>
       </div>
     </header>
     <main>
       <section>
         <!-- Portfolio filter-->
-        <div class="container">
-          <ul class="list">
-            <li><button type="button" class="button">Все</button></li>
-            <li><button type="button" class="button">Веб-сайты</button></li>
-            <li><button type="button" class="button">Приложения</button></li>
-            <li><button type="button" class="button">Дизайн</button></li>
-            <li><button type="button" class="button">Маркетинг</button></li>
-          </ul>
+        <div class="container filter-container">
+          <div class="">
+            <ul class="list filter">
+              <li class="filter-item"><button type="button" class="filter-button">Все</button></li>
+              <li class="filter-item"><button type="button" class="filter-button">Веб-сайты</button></li>
+              <li class="filter-item"><button type="button" class="filter-button">Приложения</button></li>
+              <li class="filter-item"><button type="button" class="filter-button">Дизайн</button></li>
+              <li class="filter-item"><button type="button" class="filter-button">Маркетинг</button></li>
+            </ul>
+          </div>
         </div>
         <!-- Portfolio -->
-        <div class="container">
+        <div class="container ">
           <ul class="portfolio-list list">
             <li class="item">
               <a href="">
@@ -62,8 +66,10 @@
                   alt="Разработка Веб-сайта для компании Технокряк"
                 />
               </a>
-              <h2 class="title">Технокряк</h2>
-              <p class="description">Веб-сайт</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Технокряк</h2>
+                <p class="description">Веб-сайт</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -74,8 +80,10 @@
                   alt="Дизайн макет постера New Orlean vs Golden Star"
                 />
               </a>
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="description">Дизайн</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Постер New Orlean vs Golden Star</h2>
+                <p class="description">Дизайн</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -86,8 +94,10 @@
                   alt="Разработка приложения для ресторана Seafood"
                 />
               </a>
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="description">Приложение</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Ресторан Seafood</h2>
+                <p class="description">Приложение</p>
+              </div>  
             </li>
             <li class="item">
               <a href="">
@@ -98,8 +108,10 @@
                   alt="Макертинг-проект Prime"
                 />
               </a>
-              <h2 class="title">Проект Prime</h2>
-              <p class="description">Маркетинг</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Проект Prime</h2>
+                <p class="description">Маркетинг</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -110,8 +122,10 @@
                   alt="Разработка приложения Boxes"
                 />
               </a>
-              <h2 class="title">Проект Boxes</h2>
-              <p class="description">Приложение</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Проект Boxes</h2>
+                <p class="description">Приложение</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -122,8 +136,10 @@
                   alt="Разработка веб-сайта Inspiration has no Borders"
                 />
               </a>
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="description">Веб-сайт</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Inspiration has no Borders</h2>
+                <p class="description">Веб-сайт</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -134,8 +150,10 @@
                   alt="Разработка дизайн макета для издания Limited Edition"
                 />
               </a>
-              <h2 class="title">Издание Limited Edition</h2>
-              <p class="description">Дизайн</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Издание Limited Edition</h2>
+                <p class="description">Дизайн</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -146,8 +164,10 @@
                   alt="Макертинг-проект LAB"
                 />
               </a>
-              <h2 class="title">Проект LAB</h2>
-              <p class="description">Маркетинг</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Проект LAB</h2>
+                <p class="description">Маркетинг</p>
+              </div>
             </li>
             <li class="item">
               <a href="">
@@ -158,8 +178,10 @@
                   alt="Разработка приложения Growing Business"
                 />
               </a>
-              <h2 class="title">Growing Business</h2>
-              <p class="description">Приложение</p>
+              <div class="portfolio-item-description">
+                <h2 class="title">Growing Business</h2>
+                <p class="description">Приложение</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -167,21 +189,21 @@
     </main>
     <!-- Footer-->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo">
+      <div class="container footer-container">
+        <a href="./index.html" class="logo-footer">
           <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
         </a>
         <address>
           <ul class="footer-nav list">
-            <li>
+            <li class="item">
               <a href="https://goo.gl/maps/cFqn6ebKmjsBGTLy9" class="adres"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="item">
               <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="item">
               <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
           </ul>

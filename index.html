@@ -21,61 +21,60 @@
   <body class="page">
     <!-- Header -->
     <header class="page-header">
-      <div class="container">
-        <a href="./index.html" class="logo"> <span class="logo-web">Web</span>Studio </a>
-        <nav>
+      <div class="container header-container">
+        <nav class="nav-flex">
+          <a href="./index.html" class="logo">
+            <span class="logo-web">Web</span>Studio
+          </a>
           <ul class="site-nav list">
-            <li><a href="./index.html" class="link current">Студия</a></li>
-            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li><a href="./contacts.html" class="link">Контакты</a></li>
+            <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li class="item"><a href="./contacts.html" class="link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="auth-nav list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
-          </li>
+          </li class="item">
           <li>
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
+          </li class="item">
         </ul>
       </div>
     </header>
     <main>
       <!--Hero-->
       <section class="hero">
-        <section>
-          <div class="container">
-            <h1 class="title">
-              Эффективные решения<br />
-              для вашего бизнеса
-            </h1>
-            <button type="button" class="modal-btn">Заказать услугу</button>
-          </div>
-        </section>
+        <div class="container hero-container">
+          <h1 class="title">
+            Эффективные решения для вашего бизнеса
+          </h1>
+          <button type="button" class="modal-btn">Заказать услугу</button>
+        </div>        
       </section>
       <!--Advantages-->
       <section class="section">
         <div class="container">
           <ul class="advantages-list list">
-            <li>
+            <li class="item">
               <h3 class="title uppercase">Внимание к деталям</h3>
               <p class="description">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
-            </li>
-            <li>
+            </li>            
+            <li class="item">
               <h3 class="title uppercase">Пунктуальность</h3>
               <p class="description">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title uppercase">Планирование</h3>
               <p class="description">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="item">
               <h3 class="title uppercase">Современные технологии</h3>
               <p class="description">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
@@ -89,7 +88,7 @@
         <div class="container">
           <h2 class="section title main-title">Чем мы занимаемся</h2>
           <ul class="whatwedo-list list">
-            <li class="item">
+            <li class="wedo-item">
               <img
                 class="image"
                 src="./images/process-architecture.jpg"
@@ -97,15 +96,14 @@
                 alt="Разработка архитектуры процессов"
               />
             </li>
-            <li class="item">
+            <li class="wedo-item">
               <img
                 class="image"
                 src="./images/client-oriented-uiux-design.jpg"
                 width="370"
                 alt="Клиенто-ориенторованный UX/UI-дизайн"
               />
-            </li>
-            <li class="item">
+            <li class="wedo-item">
               <img class="image" src="./images/tablet.jpg" width="370" alt="Планшет" />
             </li>
           </ul>
@@ -113,9 +111,11 @@
       </section>
       <!-- Our team-->
       <section class="section team">
-        <div class="container">
+        <div class="container team-container">
+          <div class="team-title">
           <h2 class="title">Наша команда</h2>
-          <ul class="team-list list">
+          </div>
+          <ul class="team-list list">            
             <li class="list-item">
               <img
                 class="image"
@@ -162,21 +162,21 @@
     </main>
     <!-- Footer-->
     <footer class="footer">
-      <div class="container">
-        <a href="./index.html" class="logo">
+      <div class="container footer-container">
+        <a href="./index.html" class="logo-footer">
           <span class="logo-web">Web</span><span class="logo-studio">Studio</span>
         </a>
         <address>
           <ul class="footer-nav list">
-            <li>
+            <li class="item">
               <a href="https://goo.gl/maps/cFqn6ebKmjsBGTLy9" class="adres"
                 >г. Киев, пр-т Леси Украинки, 26</a
               >
             </li>
-            <li>
+            <li class="item">
               <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="item">
               <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
           </ul>
