@@ -177,6 +177,7 @@ img {
 
   background-color: var(--accent-color);
   color: var(--white);
+  box-shadow:   0px 4px 4px rgba(0, 0, 0, 0.15);
 
   font-family: Roboto;
   font-weight: 700;
@@ -288,7 +289,10 @@ img {
 }
 .team-list .list-item {
   flex-basis: calc((100% - 90px) / 4);  
-  background-color: white;
+  background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 
+  0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-list .list-item:not(:nth-child(4n-4)) {
   margin-right: 30px;
