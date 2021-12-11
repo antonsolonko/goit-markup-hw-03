@@ -75,8 +75,6 @@ img {
 }
 .header-container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .logo {
   display: flex;
@@ -90,6 +88,8 @@ img {
   text-decoration: none;
 
   margin-right: 73px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo-web {
     color: var(--accent-color);
@@ -127,6 +127,8 @@ img {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.02rem;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -137,7 +139,6 @@ img {
 }
 .auth-nav .link {
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -147,8 +148,12 @@ img {
 .hero {
   background-color: var(--primary-bg-gray);
   text-align: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
 }
 .hero .title {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   max-width: 700px;
 
@@ -159,13 +164,6 @@ img {
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
-}
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 200px;
-  padding-top: 200px;
 }
 .hero .modal-btn {
   display: inline-block;
@@ -191,27 +189,20 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.advantages-container {
+.advantages-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .advantages-list .item {  
   display: flex;
   flex-direction: column;  
-  flex-basis: calc((100% - 120px) / 4);
-  width: 270px;  
+  flex-basis: calc((100% - 3 * 30px) / 4);
   }
 .advantages-list .item:not(:nth-child(4n + 4)) {
   margin-right: 30px;
 }
 .advantages-list .title {
   margin-bottom: 10px;
-}
-.section {
-  background-color: var(--primary-bg-color);
-  font-family: inherit;
-  font-weight: 700;
-  letter-spacing: 0.06rem;
 }
 
 .section .title {
@@ -224,7 +215,6 @@ img {
 }
 .section .description {
   color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
   font-family: Roboto;
   font-weight: 400;
   font-size: 14px;
@@ -232,9 +222,8 @@ img {
   letter-spacing: 0.03rem;
 }
 /* ------------------------------------------------Whatwedo -------------------------------------*/
-.we-do-container {
+.we-do-section {
   padding-bottom: 94px;
-  margin-bottom: -30px;
 }
 .section.title.main-title {
   display: flex;
@@ -245,6 +234,7 @@ img {
 .whatwedo-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
 }
 .wedo-item:not(:nth-child(3n-3)) {
   margin-right: 30px;
@@ -253,8 +243,6 @@ img {
 /* -------------------------------------------Our team----------------------------------------------- */
 .section-team {
   background-color: var(--secondary-bg-color);
-}
-.team-container {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -298,11 +286,14 @@ img {
   margin-right: 30px;
 }
 /* --------------------------------Footer -------------------------------------*/
+.footer {
+  background-color: var(--primary-bg-gray);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .logo-footer {  
   margin-right: auto;
@@ -314,9 +305,6 @@ img {
   line-height: 1.2;
   text-decoration: none;
   margin-bottom: 20px;
-}
-.footer {
-  background-color: var(--primary-bg-gray);
 }
 .footer-nav {
   display: flex;
@@ -351,12 +339,14 @@ img {
 /* >:G ?:O W:| PORTFOLIO.HTML <:=) j:-O i:K */
 
 /* --------------------------------------------------- Portfolio filter --------------------------------------*/
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .portfolio-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
   }
 .portfolio-filter {
   display: flex;
@@ -405,6 +395,9 @@ img {
   margin-top: 30px;
   margin-left: 30px;
 }
+.portfolio-list .item a {
+  text-decoration: none;
+}
 .portfolio-item-description {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
@@ -418,7 +411,6 @@ img {
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06rem;
-
   margin-bottom: 4px;
 }
 .portfolio-list .item .description {
